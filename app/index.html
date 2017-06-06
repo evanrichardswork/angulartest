@@ -1,14 +1,29 @@
----
-layout: default
-title: 'Playbook | Prototype faster. Build faster.'
-body_class: 'index'
----
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Angular Test</title>
+    <meta name="description" content="This is my first Angular 2 test site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="delete-me">
-  <div class="inner">
-    <img src="https://raw.githubusercontent.com/centresource/generator-playbook/site/app/images/logo-playbook_2x.png" alt="Playbook" width="74" height="74" />
-    <h1>Playbook</h1>
-    <p>Congrats, you just created your Playbook. Start building!</p>
-    
-  </div>
-</div>
+    <!-- build:css /styles/application.css -->
+    <link rel="stylesheet" href="/vendor/normalize-css/normalize.css">
+    <link rel="stylesheet" href="/styles/syntax.css">
+    <link rel="stylesheet" href="/styles/application.css">
+    <!-- endbuild -->
+
+    <!-- build:js /scripts/modernizr.js -->
+      <script src="/vendor/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    Foo
+    <ui-view></ui-view>
+    <!-- build:js /scripts/application.js -->
+    <script src="/scripts/application.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
